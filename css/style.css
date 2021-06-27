@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap');
+body
+{
+    background:#f0f0f0 url(..//bg.jpg) repeat top left;
+    font-family: tahoma;
+    font-size: 12px;
+    color: #555;
+    
+}
+h1.images-gallery{
+    font-size: 50px;
+    font-family: 'Dancing Script',sans-serif;
+    text-align: center;
+   
+}
+
+.im_wrapper div
+{
+    max-width: 100%;
+    left: -500px;
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px #000;
+ 
+}
+
+.im_wrapper div img
+{
+   float: left;
+    width: 115px;
+    height: 115px;
+    margin: 5px 0px 0px 5px;
+    
+}
+
+
+.im_loading
+{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -35px 0px 0px -35px;
+    background: white url(../images/loader.gif) no-repeat center center;
+    width: 70px;
+    height: 70px;
+    z-index: 9999;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #000;
+    opacity: 0.7;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+
+
+}
+
+.im_next:hover,
+.im_prev:hover
+{
+    opacity: 0.9;
+}
+
+
+.im_next
+{
+    background: white url(../images/next.png) no-repeat center center;
+    right: -50px;
+}
+
+.im_next
+{
+    background:white url(../images/prev.png) no-repeat center center; 
+    left: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
